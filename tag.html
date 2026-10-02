@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal website of Casey Brummer, junior accountancy student at CSUN.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="site-data.js"></script>
+  <script defer src="app.js"></script>
+  <title>Tag | Casey Brummer</title>
+</head>
+<body data-page="tag">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="mobile-header"><button class="menu-button" id="menu-button" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">☰</button><span id="mobile-name">Casey Brummer</span></header>
+  <div class="mobile-backdrop" id="backdrop"></div>
+  <aside class="sidebar" id="sidebar"></aside>
+  <div class="layout">
+    <main class="main">
+      <div class="topbar" id="breadcrumb"></div>
+      <section class="page" id="content" aria-live="polite"></section>
+      <footer class="site-footer"><span>© <span id="footer-year"></span> <strong id="footer-name"></strong></span><span>Personal website</span></footer>
+    </main>
+    <aside class="rightbar" aria-label="Site tools and recent content">
+      <div class="search-wrap"><svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15 15 6 6" fill="none" stroke="currentColor" stroke-width="2"/></svg><input class="search" id="search" type="search" placeholder="Search..." aria-label="Search pages and posts" autocomplete="off"><div class="search-results" id="search-results" aria-live="polite"></div></div>
+      <div class="widget" id="recent"></div>
+      <div class="widget" id="trending"></div>
+    </aside>
+  </div>
+</body>
+</html>
+
